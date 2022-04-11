@@ -11,7 +11,7 @@ def binary_search(num_list_sorted, num_to_find):
         mid_index = (min_index + max_index) // 2  #
         guess = num_list_sorted[mid_index]
 
-        # Checking code block to find out how does it work.
+        # Steps in loop, to check results.
         # print("Step #{0}, min_index:{1}, max_index: {2}, mid_index: {3}, guess: {4}". \
         #       format(step, min_index, max_index, mid_index, guess))
 
